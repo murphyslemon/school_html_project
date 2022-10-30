@@ -8,6 +8,8 @@ html {
 }
 
 nav {
+    background-image:url("background-379775-grey-texture.jpg");
+    background-repeat: repeat;
     text-align: right;
 }
 
@@ -38,7 +40,10 @@ h1  {
     font-family: "Times New Roman", Times, serif;
   }
 
-p {
+.main_text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     text-align: center;
 }
 
@@ -55,8 +60,29 @@ img {
     margin-right: auto;
 }
 
-div {
+.container1 {
+    background: grey;
+    justify-content: space-between;
+    width: 33.33%;
+    float: left;
+}
+
+.container2 {
+    background: grey;
+    width: 33.33%;
+    float: right;
+}
+
+.container3 {
+    background: grey;
+    width: 33.33%;
+    float: right;
+}
+
+.mapouter {
     padding: 10px;
     margin-right: auto;
     margin-left: auto;
 }
+
+
