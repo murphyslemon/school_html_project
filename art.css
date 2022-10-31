@@ -3,6 +3,10 @@
     src: url("Lato-Regular.ttf")format("truetype");
 }
 
+@media screen {
+    
+}
+
 html {
     font-family: Lato, serif;
 }
@@ -10,6 +14,7 @@ html {
 nav {
     background-image:url("background-379775-grey-texture.jpg");
     background-repeat: repeat;
+    padding: 10px;
     text-align: right;
 }
 
@@ -54,29 +59,24 @@ h2  {
     font-family: "Times New Roman", Times, serif;
   }
 
+img1 {
+
+    align-content: center;
+}
+
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
-.container1 {
+.container {
     background: grey;
-    justify-content: space-between;
-    width: 33.33%;
+    padding: 10px;
+    width: 28%;
+    margin: 10px;
     float: left;
-}
-
-.container2 {
-    background: grey;
-    width: 33.33%;
-    float: right;
-}
-
-.container3 {
-    background: grey;
-    width: 33.33%;
-    float: right;
+    text-align: center;
 }
 
 .mapouter {
@@ -88,5 +88,6 @@ img {
 p {
     text-align: center;
 }
+
 
 
