@@ -14,7 +14,7 @@ html {
 .logo {
     display: block;
     float: left;
-    width: 7%;
+    width: fit-content;
 }
 
 .links {
@@ -50,7 +50,7 @@ h1  {
     margin-bottom: .3em;
     text-align: center;
     text-decoration: underline;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Georgia, Arial, Helvetica, serif;
   }
 
 .main_text {
