@@ -1,22 +1,29 @@
 @font-face {
-    font-family: Lato;
-    src: url("Lato-Regular.ttf")format("truetype");
+    font-family: 'Lato';
+    src: url('Lato-Regular.ttf') format('truetype');
+}
+
+@media only screen and (min-width: 35em) {
 }
 
 html {
-    font-family: Lato, serif;
+    font-family: 'Lato', 'serif', 'Comic Sans MS';
     text-align: center;
 }
 
-nav {
-    background-image:url("background-379775-grey-texture.jpg");
-    background-repeat: repeat;
-    padding: 0.75%;
-    text-align: right;
+.logo {
+    display: block;
+    float: left;
+    width: 7%;
 }
 
-.logo {
-    float: left;
+.links {
+    background-image:url("background-379775-grey-texture.jpg");
+    background-repeat: repeat;
+    display: inline-block;
+    width: 90%;
+    padding: 1%;
+    text-align: right;
 }
 
 body {
