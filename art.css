@@ -77,7 +77,8 @@ img {
 }
 
 .container {
-    background: #363636;
+    background-image:url("background-379775-grey-texture.jpg");
+    background-repeat: repeat;
     padding: 2.1%;
     width: 28%;
     margin: 0.5%;
